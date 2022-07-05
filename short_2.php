@@ -3,7 +3,7 @@
  * Plugin name: Short_2
  * Description: structure d'extension utilisant plusieurs dossiers et permettant d'afficher l'adresse
  * Author: Olena
- * Plugin URI: https://github.com/sabrinoushka
+ * Plugin URI: https://github.com/sabrinoushka/31w-extension-exer2.git
  *  
  */    
 
