@@ -2,24 +2,26 @@
   margin: 10px;
   padding: 10px;
   border-left: 4px solid #005;
-  background-color: #bbb;
+  background-color: #fde491;
 }
 
 .boite__modale {
-  background-color: red;
-  position: absolute;
+  background-color: rgb(251, 150, 87);
+  position: fixed;
   width: 50vw;
   height: 50vh;
   top: 25vh;
   left: 25vw;
+  display: flex;
+  border-radius: 8px;
   transform: scale(0);
   opacity: 0;
-  transition: transform 1s, opacity 1s;
+  transition: transform 1s, opacity 1s;   
 }
 
 .boite__modale__ouvrir {
   transform: scale(1);
-  opacity: 1;
+  opacity: 1;  
 }
 
 .boite__X {
@@ -28,9 +30,26 @@
   position: absolute;
   top: 10px;
   left: 10px;
+  text-align: center;
+  background-color: inherit;
+  border: none;
 }
 
-.message {
-  text-align: center;
-  justify-self: baseline;
-}/*# sourceMappingURL=style.css.map */
+.boite_X:hover{
+  scale: 2;  
+}
+
+.dark {  
+  background-color: black;
+  opacity: .5;
+  position: fixed;
+  top: 0;
+  left: 0;
+  border-color: red 2px;
+  width: 100%;
+  height: auto;
+}
+
+
+
+/*# sourceMappingURL=style.css.map */
