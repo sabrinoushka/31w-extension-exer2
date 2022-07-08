@@ -7,9 +7,10 @@
 }
 
 .boite__modale{
-    background-color: rgb(237, 232, 96);
+    background-image: linear-gradient(30deg, rgb(237, 232, 96), rgb(241, 167, 63));
     position: fixed;
     display: flex;
+    min-width: 200px;
     width : 50vw;
     height : 50vh;
     top : 25vh;
@@ -59,9 +60,9 @@
 .conteneur__message{
     align-items: center;
     padding: 25px;
-    color: rgb(130, 18, 22);   
+    color: rgb(42, 12, 153);   
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: large;
+    font-size: 1.5em;
     text-shadow: 1px 1px 3px rgb(75, 74, 74);
 
 }
