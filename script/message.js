@@ -5,7 +5,7 @@
     let elmCover
 
     function creer_boite_modale(){
-        elmCover = document.createElement('div')  
+        elmCover = document.createElement('div')          
         elmBoite__modale = document.createElement('div')
         elmBoite__X = document.createElement('button')
         elmBoite__modale.appendChild(elmBoite__X)
@@ -23,17 +23,17 @@
     let elmOK = document.querySelector('#mon_bouton')
 
     elmOK.addEventListener('mousedown', function(){
-        console.log('Bravo le script fonctionne')
-        elmBoite__modale.classList.add('boite__modale__ouvrir') 
+        //console.log('Bravo le script fonctionne')
+        elmBoite__modale.classList.add('boite__modale__ouvrir')
         elmCover.classList.add('dark')    
-        console.log(elmBoite__modale.classList)
+        //console.log(elmBoite__modale.classList)
         afficherMessage();
     })
 
     elmBoite__X.addEventListener('mousedown', function(){
         elmBoite__modale.classList.remove('boite__modale__ouvrir');        
-        console.log(elmBoite__modale.classList);
-        elmCover.classList.remove('dark');
+        //console.log(elmBoite__modale.classList);
+        elmCover.classList.remove('dark')
         conteneurMessage.innerHTML = ''
         elmBoite__modale.removeChild(conteneurMessage)
         
