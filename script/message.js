@@ -12,9 +12,9 @@
         elmBoite__X.classList.add('boite__X')
         elmBoite__X.innerHTML = "X"
         elmBoite__modale.classList.add('boite__modale')
-        elmBody = document.querySelector('body')
+        elmBody = document.querySelector('body') 
         elmBody.appendChild(elmCover)
-        elmBody.appendChild(elmBoite__modale)  
+        elmBody.appendChild(elmBoite__modale)
     }
 
     creer_boite_modale();   
@@ -34,5 +34,12 @@
         console.log(elmBoite__modale.classList)
         elmCover.classList.remove('dark') 
     })
+
+    let sectionArticle
+    let titre
+    sectionArticle = document.querySelector('.site__main')
+    console.log(sectionArticle)
+    titre = sectionArticle.querySelector('h2').innerHTML
+    console.log(titre) 
 
 })()

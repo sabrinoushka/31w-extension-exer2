@@ -1,11 +1,12 @@
 <?php
+
 /**
  * Plugin name: Short_2
  * Description: structure d'extension utilisant plusieurs dossiers et permettant d'afficher l'adresse
  * Author: Olena
  * Plugin URI: https://github.com/sabrinoushka/31w-extension-exer2.git
  *  
- */    
+ */   
 
 function sh2_31w_enqueue(){
 
@@ -39,3 +40,6 @@ function genere_adresse(){
     return $contenu;
 }
     add_shortcode('adr', 'genere_adresse');
+/* 
+    $title =  get_the_title();
+    echo $title; */
